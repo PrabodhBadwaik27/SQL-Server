@@ -32,5 +32,3 @@ Microsoft SQL Server is a database management and analysis platform for online t
 SQL Server supports two types of authentication:  
 - Windows Authentication
 - SQL Server Authentication
-
-### Database
