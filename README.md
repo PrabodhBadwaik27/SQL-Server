@@ -3,10 +3,10 @@ This module overviews SQL Server fundamentals and skills to code using T-SQL
 **Pre-requisite:** Basic knowledge of RDBMS concepts  
 **Expertise:** Entry level developer  
 
-#### Microsoft SQL Server
+### Microsoft SQL Server
 Microsoft SQL Server is a database management and analysis platform for online transactions processing(OLTP), data warehousing and e-commerce applications.  
 
-#### SQL Server 2005 Components
+### SQL Server 2005 Components
 - SQL Server Integreation Services
   - Reporting Services
   - Analysis Services
@@ -17,7 +17,7 @@ Microsoft SQL Server is a database management and analysis platform for online t
     - Service Broker
     - Replication  
     
-#### SQL Server Tools
+### SQL Server Tools
 1. SQL Server Management Studio
 2. SQL Server Business Intelligence Development Studio
 3. SQL Server Profiler
@@ -26,9 +26,9 @@ Microsoft SQL Server is a database management and analysis platform for online t
 6. Database Engine Tuning Advisor
 7. Command Prompt Utilities
 
-#### SQL Server Authentication
+### SQL Server Authentication
 SQL Server supports two types of authentication:  
 - Windows Authentication
 - SQL Server Authentication
 
-#### Database
+### Database
