@@ -32,3 +32,16 @@ Microsoft SQL Server is a database management and analysis platform for online t
 SQL Server supports two types of authentication:  
 - Windows Authentication
 - SQL Server Authentication
+
+### Databases
+  - Master
+  - Model
+  - MSDB
+  - Tempdb
+  - Resource
+
+### T-SQL or Transact SQL
+**What is T-SQL?**  
+  - T-SQL is an *extension* of the SQL developed by Microsoft, which contains few additional transactional structures used to operate any of the SQL Server based relational databases.
+  - This extension includes multiple *new characteristics* such as exception handling, string and date functions and other minor upgrades in the existing functions.
+  - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
