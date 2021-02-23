@@ -1,6 +1,6 @@
 # SQL Server
 This module overviews SQL Server fundamentals and skills to code using T-SQL  
-**Pre-requisite:** Basic knowledge of RDBMS concepts  
+**Pre-requisite:** Basic knowledge of RDBMS concepts and SQL   
 **Expertise:** Entry level developer  
 
 ## SQL Server Overview 
