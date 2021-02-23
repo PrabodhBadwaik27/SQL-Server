@@ -41,12 +41,15 @@ SQL Server supports two types of authentication:
   - Resource
 
 ### T-SQL or Transact SQL
-**What is T-SQL?**  
+#### What is T-SQL?  
   - T-SQL is an *extension* of the SQL developed by Microsoft, which contains few additional transactional structures used to operate any of the SQL Server based relational databases.
   - This extension includes multiple *new characteristics* such as exception handling, string and date functions and other minor upgrades in the existing functions.
   - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
 
+#### Types of T-SQL Commands
+
+## Data Integrity 
 
 #### NOTES
-1. The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
-2. SQL Server uses **Command Line Utility tools** such as ***dta, bcp, sqlcmd, osl***.
+- The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
+- SQL Server uses **Command Line Utility tools** such as ***dta, bcp, sqlcmd, osl***.
