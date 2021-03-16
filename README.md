@@ -34,11 +34,16 @@ SQL Server supports two types of authentication:
 - SQL Server Authentication
 
 ### Databases
-  - Master
-  - Model
-  - MSDB
-  - Tempdb
-  - Resource
+  - **Master**
+    - It records all system-level information for an instance of SQL Server.
+    - It records the existence of all other databases and the location of database files.
+    - As *Master* records the initialization of SQL Server, SQL Server can't start if the master database is unavailable. 
+  - **Model**
+    - It applies as the template for all databases created on the instance of SQL Server.
+    - Any modifications to the *Model* database will be applied to any databases created afterwards.
+  - **MSDB**
+  - **Tempdb**
+  - **Resource**
 
 ### T-SQL or Transact SQL
 #### What is T-SQL?  
