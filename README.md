@@ -55,24 +55,6 @@ SQL Server supports two types of authentication:
   - This extension includes multiple *new characteristics* such as exception handling, string and date functions and other minor upgrades in the existing functions.
   - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
 
-### Types of T-SQL Commands/ SQL Basics
-Any T-SQL/ SQL commands are classified in three types;  
-- **DDL - Data Definition Language**:  Used to design and modify the structure of databases and it's objects 
-	- CREATE
-	- ALTER
-	- DROP
-- **DML - Data Manipulation Language**: To perform CRUD operations over databases/ objects  
-	- INSERT
-	- SELECT
-	- UPDATE
-	- DELETE
-- **DCL - Data Control Language**: For controling the access of databases/objects
-	- GRANT
-	- REVOKE
-	- DENY
-
-\* Any user attempting to execute the commands must have permissions to execute respective commands.
-
 ### Datatypes in SQL Server
 SQL Server supports the following datatypes, organized into certain categories as listed;
 - Approximate Numerics
@@ -110,6 +92,32 @@ SQL Server supports the following datatypes, organized into certain categories a
 	- timestamp
 	- uniqueidentifier
 	- xml
+
+### Types of T-SQL Commands
+Any T-SQL/ SQL commands are classified in three types;  
+- **DDL - Data Definition Language**:  Used to design and modify the structure of databases and it's objects 
+	- CREATE
+	- ALTER
+	- DROP
+- **DML - Data Manipulation Language**: To perform CRUD operations over databases/ objects  
+	- INSERT
+	- SELECT
+	- UPDATE
+	- DELETE
+- **DCL - Data Control Language**: For controling the access of databases/objects
+	- GRANT
+	- REVOKE
+	- DENY
+
+\* Any user attempting to execute the commands must have permissions to execute respective commands.
+
+### Data Integrity
+- PRIMARY KEY
+- FOREIGN KEY
+- UNIQUE
+- CHECK
+- DEFAULT
+- NOT NULL
 
 #### NOTES
 - The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
