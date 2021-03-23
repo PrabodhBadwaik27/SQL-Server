@@ -42,18 +42,74 @@ SQL Server supports two types of authentication:
     - It applies as the template for all databases created on the instance of SQL Server.
     - Any modifications to the *Model* database will be applied to any databases created afterwards.
   - **MSDB**
+	- It's applied by SQL Server Agent for scheduling alerts and jobs.
   - **Tempdb**
+	- *Tempdb* is the separate workspace for holding temporary objects and intermediate result sets.
   - **Resource**
+	- *Resource* is a read-only database consisting of copies of all system objects shipped with SQL Server.
 
-### T-SQL or Transact SQL
-#### What is T-SQL?  
+## T-SQL or Transact SQL
+
+### What is T-SQL?  
   - T-SQL is an *extension* of the SQL developed by Microsoft, which contains few additional transactional structures used to operate any of the SQL Server based relational databases.
   - This extension includes multiple *new characteristics* such as exception handling, string and date functions and other minor upgrades in the existing functions.
   - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
 
-#### Types of T-SQL Commands
+### Types of T-SQL Commands/ SQL Basics
+Any T-SQL/ SQL commands are classified in three types;  
+- **DDL - Data Definition Language**:  Used to design and modify the structure of databases and it's objects 
+	- CREATE
+	- ALTER
+	- DROP
+- **DML - Data Manipulation Language**: To perform CRUD operations over databases/ objects  
+	- INSERT
+	- SELECT
+	- UPDATE
+	- DELETE
+- **DCL - Data Control Language**: For controling the access of databases/objects
+	- GRANT
+	- REVOKE
+	- DENY
 
-## Data Integrity 
+\* Any user attempting to execute the commands must have permissions to execute respective commands.
+
+### Datatypes in SQL Server
+SQL Server supports the following datatypes, organized into certain categories as listed;
+- Approximate Numerics
+	- float
+	- real
+- Binary Strings
+	- binary
+	- varbinary
+	- image
+- Character Strings
+	- char
+	- varchar
+	- text
+- Date and Time
+	- datetime
+	- smalldatetime
+- Exact Numerics
+	- bit
+	- tinyint
+	- smallint
+	- int
+	- bigint
+	- decimal
+	- numeric
+	- smallmoney
+	- money
+- Unicode Character Strings
+	- nchar
+	- nvarchar
+	- ntext
+- Other Datatypes
+	- cursor
+	- sql_variant
+	- table
+	- timestamp
+	- uniqueidentifier
+	- xml
 
 #### NOTES
 - The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
