@@ -55,40 +55,35 @@ SQL Server supports two types of authentication:
   - This extension includes multiple *new characteristics* such as exception handling, string and date functions and other minor upgrades in the existing functions.
   - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
 
-### Datatypes in SQL Server
+### Types of T-SQL Commands
+Any T-SQL/ SQL commands are classified in three types;  
+- **DDL - Data Definition Language**:  Used to design and modify the structure of databases and it's objects 
+	- CREATE
+	- ALTER
+	- DROP
+- **DML - Data Manipulation Language**: To perform CRUD operations over databases/ objects  
+	- INSERT
+	- SELECT
+	- UPDATE
+	- DELETE
+- **DCL - Data Control Language**: For controling the access of databases/objects
+	- GRANT
+	- REVOKE
+	- DENY
+
+\* Any user attempting to execute the commands must have permissions to execute respective commands.
+
+### Data Integrity
+- PRIMARY KEY
+- FOREIGN KEY
+- UNIQUE
+- CHECK
+- DEFAULT
+- NOT NULL
+
+## Annexure
+#### Datatypes in SQL Server
 SQL Server supports the following datatypes, organized into certain categories as listed;  
-**Aproximate Numerics**|
-----|----
-float|real
-
-**Binary Strings**
-----|----|----
-binary|varbinary|image|
-
-**Character Strings**|
-----|----
-char|varchar|text|
-
-**Date and Time**|
-----|----
-datetime|smalldatetime||
-
-**Exact Numerics**|
-----
-bit|tinyint|smallint|
-int|bigint|decimal|
-numeric|smallmoney|money|
-
-**Unicode Character Strings**|
-----
-nchar|nvarchar|ntext|
-
-**Other Datatypes**|
-----
-cursor|sql_variant|table|
-
-timestamp|uniqueiddentifier|xml|
-
 - Approximate Numerics
 	- float
 	- real
@@ -124,33 +119,7 @@ timestamp|uniqueiddentifier|xml|
 	- timestamp
 	- uniqueidentifier
 	- xml
-
-### Types of T-SQL Commands
-Any T-SQL/ SQL commands are classified in three types;  
-- **DDL - Data Definition Language**:  Used to design and modify the structure of databases and it's objects 
-	- CREATE
-	- ALTER
-	- DROP
-- **DML - Data Manipulation Language**: To perform CRUD operations over databases/ objects  
-	- INSERT
-	- SELECT
-	- UPDATE
-	- DELETE
-- **DCL - Data Control Language**: For controling the access of databases/objects
-	- GRANT
-	- REVOKE
-	- DENY
-
-\* Any user attempting to execute the commands must have permissions to execute respective commands.
-
-### Data Integrity
-- PRIMARY KEY
-- FOREIGN KEY
-- UNIQUE
-- CHECK
-- DEFAULT
-- NOT NULL
-
 #### NOTES
 - The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
 - SQL Server uses **Command Line Utility tools** such as ***dta, bcp, sqlcmd, osl***.
+
