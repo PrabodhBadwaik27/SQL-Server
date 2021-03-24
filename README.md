@@ -3,6 +3,21 @@ This module overviews SQL Server fundamentals and skills to code using T-SQL
 **Pre-requisite:** Basic knowledge of RDBMS concepts and SQL   
 **Expertise:** Entry level developer  
 
+## Content
+- SQL Server Overview
+	- Microsoft SQL Server
+	- SQL Server 2005 Components
+	- SQL Server Tools
+	- SQL Server Authentication
+	- Databases
+- T-SQL or Transact SQL
+	- What is T-SQL?
+	- Different T-SQL Commands
+	- Data Integrity Constraints
+- Annexure
+	- Notes
+	- Datatypes
+	
 ## SQL Server Overview 
 
 ### Microsoft SQL Server
@@ -55,7 +70,7 @@ SQL Server supports two types of authentication:
   - This extension includes multiple *new characteristics* such as exception handling, string and date functions and other minor upgrades in the existing functions.
   - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
 
-### Types of T-SQL Commands
+### Different T-SQL Commands
 Any T-SQL/ SQL commands are classified in three types;  
 - **DDL - Data Definition Language**:  Used to design and modify the structure of databases and it's objects 
 	- CREATE
