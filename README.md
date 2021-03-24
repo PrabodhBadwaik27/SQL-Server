@@ -13,7 +13,8 @@ This module overviews SQL Server fundamentals and skills to code using T-SQL
 - T-SQL or Transact SQL
 	- What is T-SQL?
 	- Different T-SQL Commands
-	- Data Integrity Constraints
+	- Data Integrity
+		- Integrity Constraints
 - Annexure
 	- Notes
 	- Datatypes
@@ -89,6 +90,16 @@ Any T-SQL/ SQL commands are classified in three types;
 \* Any user attempting to execute the commands must have permissions to execute respective commands.
 
 ### Data Integrity
+Data Integrity refers to maintaining the **consistency** and **accuracy** of the data stored in a database. It assures the quality of stored data. There are **four defined types** of data integrity, as listed below;  
+- **Entity Integrity**
+	- It ensures or identifies that *every row* in the table is an unique entity/ entry for that table.
+	- It is enforced through the implemetation of *identifier column* constraints.
+	- The EI is ensured with **PRIMARY KEY, UNIQUE constraints** and **IDENTITY property**.
+- **Domain Integrity**
+- **Referential Integrity**
+- **User-defined Integrity** 
+
+#### Data Integrity Constraints
 - PRIMARY KEY
 - FOREIGN KEY
 - UNIQUE
