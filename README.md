@@ -82,7 +82,12 @@ Any T-SQL/ SQL commands are classified in three types;
 - NOT NULL
 
 ## Annexure
-#### Datatypes in SQL Server
+
+#### NOTES
+- The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
+- SQL Server uses **Command Line Utility tools** such as ***dta, bcp, sqlcmd, osl***.
+
+#### DATATYPES
 SQL Server supports the following datatypes, organized into certain categories as listed;  
 - Approximate Numerics
 	- float
@@ -119,7 +124,3 @@ SQL Server supports the following datatypes, organized into certain categories a
 	- timestamp
 	- uniqueidentifier
 	- xml
-#### NOTES
-- The **Enterprise Manager** and **Query Analyzer** are the most important SQL Server tools replaced with ***SQL Server Management Studio (SSMS)***.  
-- SQL Server uses **Command Line Utility tools** such as ***dta, bcp, sqlcmd, osl***.
-
