@@ -57,6 +57,40 @@ SQL Server supports two types of authentication:
 
 ### Datatypes in SQL Server
 SQL Server supports the following datatypes, organized into certain categories as listed;
+|**Aproximate Numerics**|
+----
+|float|real||
+----
+|**Binary Strings**|
+----
+|binary|varbinary|image|
+----
+|**Character Strings**|
+----
+|char|varchar|text|
+----
+|**Date and Time**|
+----
+|datetime|smalldatetime||
+----
+|**Exact Numerics**|
+----
+|bit|tinyint|smallint|
+----
+|int|bigint|decimal|
+----
+|numeric|smallmoney|money|
+----
+|**Unicode Character Strings**|
+----
+|nchar|nvarchar|ntext|
+----
+|**Other Datatypes**|
+----
+|cursor|sql_variant|table|
+----
+|timestamp|uniqueiddentifier|xml|
+----
 - Approximate Numerics
 	- float
 	- real
