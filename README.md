@@ -56,13 +56,13 @@ SQL Server supports two types of authentication:
   - It yields high degree of manipulative *control in the hands of programmers*; thus, it can also be *easily integrated with business tools* like Dynamics and PowerBI.
 
 ### Datatypes in SQL Server
-SQL Server supports the following datatypes, organized into certain categories as listed;
+SQL Server supports the following datatypes, organized into certain categories as listed;  
 **Aproximate Numerics**|
-----|----|
-float|real|
-
-**Binary Strings**|
 ----|----
+float|real
+
+**Binary Strings**
+----|----|----
 binary|varbinary|image|
 
 **Character Strings**|
